@@ -29,7 +29,7 @@ let timer = window.setInterval(function(){
   goToCurrent()
 },3000)
 $('.wrapper').on('mouseover',()=>{
-  window,clearInterval(timer)
+  window.clearInterval(timer)
 })
 $('.wrapper').on('mouseleave',()=>{
   timer = window.setInterval(function(){
